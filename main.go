@@ -1,8 +1,12 @@
 package main
 
-import "github.com/tarikjaber/table"
+import (
+	"github.com/tarikjaber/packtest/door"
+	"github.com/tarikjaber/packtest/table"
+)
 
 func main() {
 	chair()
-	Table()
+	table.Table()
+	door.Door()
 }
